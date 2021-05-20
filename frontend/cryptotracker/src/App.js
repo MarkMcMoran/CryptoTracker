@@ -1,9 +1,11 @@
+import ConversionForm from "./form/ConversionForm";
+import {Container} from "@material-ui/core";
 function App() {
     return (
-        <div className="App">
-                <h1> Crypto Price tracker</h1>
-
-        </div>
+        <Container maxWidth="sm">
+        <h1> Crypto Price tracker</h1>
+            <ConversionForm />
+        </Container>
     );
 }
 

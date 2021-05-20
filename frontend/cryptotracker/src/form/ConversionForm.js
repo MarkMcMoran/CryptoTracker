@@ -1,11 +1,21 @@
 import React from 'react';
-import FormControl from '@material-ui/core/FormControl';
+import TextField from '@material-ui/core/TextField';
+
 
 const ConversionForm = (props) => {
     return (
-        <FormControl fullWidth className={classes.margin} variant="filled">
-        </FormControl>
-
+        <form>
+            <TextField
+                id="standard-select-currency"
+                select
+                label="Select"
+                helperText="Select cryptocurrency">
+        </TextField>
+            <TextField
+                id="currency-amount"
+                label="Units">
+            </TextField>
+</form>
     );
 }
-export default form;
+export default ConversionForm;
