@@ -6,7 +6,7 @@ Price checker for Cryptocurrencies
 
  - React 
  - Java 
- - SQL
+ - Postgresql
 
 ## Prerequisites:
 
