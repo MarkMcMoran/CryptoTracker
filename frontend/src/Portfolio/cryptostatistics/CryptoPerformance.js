@@ -2,7 +2,7 @@ import React from "react";
 import {Statistic, Row, Col} from 'antd';
 import {ArrowUpOutlined, ArrowDownOutlined} from '@ant-design/icons';
 import {Card} from "@material-ui/core";
-import './CryptoAmount.css';
+import './CryptoPerformance.css';
 
 const CryptoPerformance = () => {
 
