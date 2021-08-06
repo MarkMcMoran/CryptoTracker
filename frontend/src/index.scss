@@ -1,3 +1,7 @@
+html{
+margin: 0px;
+  padding: 0px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,3 +11,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.GlobalCards{
+  border-radius: 15px !important;
+}
+.StatisticSideCards{
+@extend .GlobalCards;
+  margin-top: 0.5em;
+  margin-bottom: 1.25em;
+}
+
+.ChartCard {
+  @extend .GlobalCards;
+  float:right;
+}
+.PerformanceStatsCard {
+  @extend .GlobalCards;
+  float:left;
+}

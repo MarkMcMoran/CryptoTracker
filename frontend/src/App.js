@@ -1,6 +1,6 @@
 import NavBar from "./Navigation/Navigationbar";
 import {Container} from "@material-ui/core";
-import ParentElem from "./Portfolio/index";
+import ParentElem from "./MainLandingPage";
 function App() {
     return (
         <>
