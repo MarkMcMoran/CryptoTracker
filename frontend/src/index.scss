@@ -16,15 +16,14 @@ body {
 }
 .StatisticSideCards{
 @extend .GlobalCards;
-  margin-top: 0.5em;
-  margin-bottom: 1.25em;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
 }
 
 .ChartCard {
   @extend .GlobalCards;
-  float:right;
+
 }
 .PerformanceStatsCard {
   @extend .GlobalCards;
-  float:left;
 }

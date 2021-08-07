@@ -1,16 +1,16 @@
 import React from 'react';
-import {Card, CardContent} from "@material-ui/core";
 import PerformanceMetricCards from "../Performance/PerformanceMetricCards";
 import {Statistic} from "antd";
 import {ArrowUpOutlined} from "@ant-design/icons";
+import Grid from "antd/es/card/Grid";
 
 const GeneralStats = () => {
 
     return (
-        <Card className={"GlobalCards"}>
-            <CardContent>
-                <div className={"PerformanceCards"}>
-                    <PerformanceMetricCards heading={"Portfolio"}>
+
+        <Grid container>
+
+                    <PerformanceMetricCards heading={"Portfolio"} >
                         <Statistic
                             title="Performance to date"
                             value={700}
@@ -22,12 +22,13 @@ const GeneralStats = () => {
                         />
                     </PerformanceMetricCards>
 
-                    <PerformanceMetricCards heading={"Account Value"} cardtext={"$10,750,000"}/>
-                    <PerformanceMetricCards heading={"Top Holding"} cardtext={"Bitcoin"}/>
-                    <PerformanceMetricCards heading={"Cash held"} cardtext={"$50,000"}/>
-                </div>
-            </CardContent>
-        </Card>
+                    <PerformanceMetricCards heading={"Account Value"} cardtext={"$10,750,000"}  />
+                    <PerformanceMetricCards heading={"Top Holding"} cardtext={"Bitcoin"}  />
+                    <PerformanceMetricCards heading={"Cash held"} cardtext={"$50,000" } />
+
+
+        </Grid>
+
     );
 }
 

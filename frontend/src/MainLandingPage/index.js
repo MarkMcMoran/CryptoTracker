@@ -14,25 +14,25 @@ const ParentElem = () => {
 
     return (
         <div className={"bodyContainer"}>
-            <Grid container spacing={1}>
+            <Grid container spacing={2}>
                 <Grid item xs={4}>
                     <GeneralStats/>
-
                 </Grid>
                 <Grid item xs={8}>
                     <Graph/>
+                </Grid>
+
+                <Grid container spacing={2}>
+                    <Grid item xs={6}   >
+                        <Watchlist/>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Holdings/>
+                    </Grid>
 
 
                 </Grid>
-                <Grid item xs={6}>
-                    <Watchlist/>
 
-
-                </Grid>
-                <Grid item xs={6}>
-                    <Holdings/>
-
-                </Grid>
 
             </Grid>
         </div>

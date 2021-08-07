@@ -9,8 +9,7 @@ import './holdingsstyling.scss';
 
 const Holdings = () => {
     return (
-        <div className={"holdings"}>
-            <Card className={"GlobalCards"}>
+            <Card className={"holdings"}>
                 <CardContent>
                     <Typography>
                         Top 5 holdings
@@ -24,7 +23,6 @@ const Holdings = () => {
 
                 </CardContent>
             </Card>
-        </div>
     );
 }
 
