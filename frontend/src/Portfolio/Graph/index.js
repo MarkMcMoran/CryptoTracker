@@ -28,7 +28,7 @@ class Graph extends Component {
 
     render() {
         return (
-            <Card>
+            <Card className={"GlobalCards"}>
                 <CardContent>
                     <div className={"Chart-div"}>
 
@@ -37,16 +37,14 @@ class Graph extends Component {
                             options={this.state.options}
                             series={this.state.series}
                             type="line"
-
-                            width="450"
+                            width="500"
                         />
                     </div>
                 </CardContent>
 
             </Card>
 
-        )
-            ;
+        );
     }
 }
 
