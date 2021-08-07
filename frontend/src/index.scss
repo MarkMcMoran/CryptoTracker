@@ -1,0 +1,29 @@
+html{
+margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.GlobalCards{
+  border-radius: 15px !important;
+}
+.StatisticSideCards{
+@extend .GlobalCards;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+
+.ChartCard {
+  @extend .GlobalCards;
+
+}
+.PerformanceStatsCard {
+  @extend .GlobalCards;
+}
