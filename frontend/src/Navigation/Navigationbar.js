@@ -16,19 +16,17 @@ const NavBar = () => {
     return (
         <Router>
             <div>
-                <ul>
-
-
-                    <li style={{float: "left"}}>
+                <ul className={"navigationparent"}>
+                    <li style={{float: "left"}} className={"mainnav"}>
                         <Link to="/">Cryptoprice Tracker </Link>
                     </li>
-                    <li>
+                    <li className={"mainnav"}>
                         <Link to="/profile">Profile </Link>
                     </li>
-                    <li>
+                    <li className={"mainnav"}>
                         <Link to="/login">Login</Link>
                     </li>
-                    <li>
+                    <li className={"mainnav"}>
                         <Link to="/cryptocurrencies">Cryptocurrencies</Link>
                     </li>
                 </ul>
