@@ -4,7 +4,10 @@ Crypto Tracker is a web based application that has been designed for monitoring 
 and how their performance is over certain periods ( 1 day, 1 week, 1 month and so on.. ). The pricing is based off 
 the Coinmarketcap API which you can get set up with the instructions at the bottom of this README.md doc.
 
+See below for Crypto app main overview screen:
 
+
+![Main Page](main_page.png)
 
 ## Built with:
 
