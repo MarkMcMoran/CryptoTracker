@@ -37,4 +37,11 @@ public class CryptoController {
                 "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
                 HttpMethod.GET, entity, String.class).getBody();
     }
+
+
+    @GetMapping("/fetchcryptostats")
+    public String CryptoStats () {
+
+        return "";
+    }
 }
